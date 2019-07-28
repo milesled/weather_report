@@ -1,18 +1,18 @@
 .App {
   text-align: center;
-  background:black;
+  background:white;
   min-height:100vh;
 }
 
 .App-header {
-  background-color: #e9f6ff;
-  height:90px;
+  background-color:white;
+  height:80px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-header input {
@@ -31,15 +31,4 @@
   position: relative;
   cursor: pointer;
   margin:3px;
-}
-.meme-wrap:hover:after{
-  content:"🔗";
-  color:rgb(187, 255, 255);
-  font-size:50px;
-  background:rgba(0,0,0,0.6);
-  position: absolute;
-  top:0; left:0; bottom:0; right:0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
